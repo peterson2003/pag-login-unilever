@@ -75,6 +75,11 @@ form{
     margin-top: 25px;
     margin-bottom: 14px;
     cursor: pointer;
+    transition: ease-in .2s;
+}
+
+.bntMain:hover{
+    background-color: #ff4ba8d8;
 }
 
 a{
