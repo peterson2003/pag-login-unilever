@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(245, 245, 245);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.loginSide{ 
+    flex:1;
+    height: 54%;
+}
+
+.imageSide{
+    display: flex;
+    flex: 1;
+}
+
+header img{
+    height: 142px;
+}
+
+.imageSide img{
+    height: auto;
+    width: 100%;
+}
+
+.firstRow{
+    color:rgb(19, 19, 136);
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.loginRow{
+    font-weight: bold;
+    color: rgb(68, 67, 67);
+    font-size: 15px;
+}
+
+input{
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    height: 40px;
+    width: 90%;
+    padding: 10px 10px 10px 20px;
+    font-size: 15px;
+}
+
+form{
+    display: block;
+    padding: 0 40px 0 40px;
+}
+
+.bntMain{
+    border: none;
+    border-radius: 10px;
+    width: 70%;
+    height: 38px;
+    background-color: #FF0084;
+    color: #FFF;
+    font-weight: bolder;
+    font-size: 17px;
+    margin-top: 25px;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+
+a{
+    color: #FF0084;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+label{
+    display: block;
+    color:rgb(77, 75, 75);
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.content{
+    width: 33%;
+    height: auto;
+    display: block;
+}
+
+header{
+    display: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 35px;
+}
+
+.otherElements{
+    display: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.space{
+    height: 7px;
+
+}
